@@ -1,6 +1,6 @@
 ## Conway's life game implemented in JavaScript and React.JS
 
-## Live Demo (use arrow keys and [space] to control)
+## Live Demo
 
 http://95.214.9.220:9002/life-game
 
