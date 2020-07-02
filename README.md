@@ -16,7 +16,7 @@ Ensure docker is preinstalled on your system. Otherwise go to https://docs.docke
 `cd life`
 
 - Buld a docker image (for example with the name
-*tetris-content-nginx*). Note: The last dot is important!
+*life-game-content-nginx*). Note: The last dot is important!
 Also you may need to lift the privelege (prefix each command with `sudo`)
 
 
@@ -24,11 +24,11 @@ Also you may need to lift the privelege (prefix each command with `sudo`)
 `docker build -t life-game-content-nginx .`
 
 
-- Run the image within a container container *tetris-nginx*:
+- Run the image within a container container *life-game-nginx*:
 
 `docker run --name life-game-nginx -d -p 8080:80 life-game-content-nginx`
 
-- Open your browser and goto http://localhost:8080/tetris
+- Open your browser and goto http://localhost:8080/life-game
 
 - Enjoy!
 
