@@ -1,0 +1,38 @@
+.dropdown-editbox, .dropdown-editbox>input[type="text"]  {
+  font-size: 1em;
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.invalid {
+  border: 2px solid red;
+}
+
+.dropdown-editbox-list {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background: #ffffac;
+  border: 1px solid black;
+  border-top: 0px;
+  box-sizing: border-box;
+}
+
+.dropdown-editbox-list-item {
+  padding: 0.2em .5em;
+  color: #404040;
+  background: #e0e0e0;
+}
+
+.dropdown-editbox-selected, .dropdown-editbox-list-item:hover {
+  background: #c0c0c0;
+  color: #000;
+  cursor: pointer;
+}
+
+.dropdown-editbox-list-item>span {
+  color: #000;
+  font-weight: bold;
+}

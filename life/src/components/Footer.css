@@ -1,0 +1,16 @@
+.page-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #a0a0a0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.page-footer-info-block {
+  float: right;
+  margin-right: 2em;
+  margin-top: .5em;
+  margin-bottom: .5em
+}
+

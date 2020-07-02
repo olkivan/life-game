@@ -1,0 +1,18 @@
+.ctrl-title {
+  line-height: 32px;
+  padding-left: .5em;
+  padding-right: .5em;
+}
+
+.ctrl-frame-input {
+  width: 64px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  padding-left: 2pt;
+  padding-right: 2pt;
+}
+
+.ctrl-frame-input-invalid {
+  border: 2px solid red
+}

@@ -1,0 +1,100 @@
+.safe-life-dlg {
+  width: 380px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-row {
+  display: flex;
+}
+
+.life-name-label {
+  margin-right: 1em;
+}
+
+.frame-range {
+  display: flex;
+  flex-direction: column;
+}
+
+.frame-range > div {
+  margin-top: .5em;
+}
+
+.frame-range > div:last-of-type {
+  margin-bottom: .5em;
+}
+
+.frame-range input[type="number"] {
+  width: 4em;
+  margin-left: 0.5em;
+  margin-right: 1em;
+}
+
+.commentary-block {
+  flex: 1;
+}
+
+.commentary-block fieldset {
+  width: auto;
+  height: 100%;
+}
+
+.commentary-block fieldset>legend {
+  font-size: 0.8em;
+  height: 0.8em;
+  line-height: 0.8em;
+  margin-left: 0.8em;
+  padding: 0 8pt;
+}
+
+
+.commentary-block-textarea {
+  width: 100%;
+  height: calc(100% - 12pt);
+  border: 0px;
+}
+
+.commentary-block-textarea textarea{
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+  border: 0px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.commentary-block-textarea textarea:focus{
+  border: none;
+  outline: none;
+}
+
+
+.frame-range-row {
+  display: flex;
+}
+
+
+.frame-current-frame-option label, .frame-range-row-option label {
+  margin-left: .5em;
+}
+
+.frame-range-row-range {
+  flex: 1;
+  margin-left: 2em;
+}
+
+
+.dropdown-invalid-tooltip {
+  position: absolute;
+  top: -1.75em;
+  left: 10px;
+  color: red;
+  background: #fff;
+  border: 1px solid #404040;
+  border-radius: 5px;
+  padding: .15em;
+  box-shadow: 2px 1px 5px #404040
+}

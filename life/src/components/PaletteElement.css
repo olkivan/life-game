@@ -1,0 +1,75 @@
+.palette-element {
+  position: relative;
+}
+
+.palette-element-title {
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+  visibility: hidden;
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  transform: translate(-50%);
+  display: inline-block;
+}
+
+.palette-element:hover > .palette-element-title{
+  color: #000000;
+  visibility: visible;
+}
+
+.palette-element-rotate-btn {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  font-size: 18px;
+  line-height: 30px;
+  visibility: hidden;
+  text-align: center;
+  cursor: pointer;
+  color: #000000;
+}
+
+.palette-element-rotate-btn:hover {
+  font-size: 22px;
+  font-weight: bold;
+  color: #e00000;
+}
+
+.rotate-ccw {
+  top: 50%;
+  transform: translate(-100%);
+}
+
+.rotate-cw {
+  top: 50%;
+  left: 100%;
+}
+
+
+.palette-element-grid {
+  margin-top: 1.5em;
+  background: #808080;
+}
+
+.palette-element:hover > .palette-element-grid {
+  background: #808080;
+  cursor: pointer;
+  box-shadow: 3px 3px 15px #808080;
+  outline: 3px solid white;
+}
+
+.palette-element:hover > .palette-element-rotate-btn {
+  visibility: visible;
+}
+
+.palette-element-checked > .palette-element-grid {
+  outline: 3px solid white;
+}
+
+
+.palette-element + .palette-element {
+  margin-top: 12px;
+}
+

@@ -1,0 +1,24 @@
+.save-progress-dlg {
+  width: 384px;
+  height: 96px;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+
+.save-progress-dlg-progressbar {
+  margin-top: 24px;
+  margin-left: 16px;
+  margin-right: 16px;
+  width: calc(384px - 32px);
+  height: 20px;
+  border: 2px solid black;
+}
+
+
+.save-progress-dlg-label {
+  margin-top: 16px;
+  margin-left: 16px;
+  font-family: 'Courier New', Courier, monospaces;
+  font-weight: bold;
+}

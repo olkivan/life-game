@@ -1,0 +1,17 @@
+{
+  "name": "life-game-server",
+  "version": "1.0.0",
+  "description": "Life Game Server App provides an API for persistent game objects storage",
+  "main": "lifegamesrv.js",
+  "scripts": {
+    "start": "node lifegamesrv.js"
+  },
+  "author": "Ivan Olkhovsky <olkivan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cors": "2.8.5",
+    "express": "4.16.2",
+    "mongodb": "^3.5.9"
+  }
+}
