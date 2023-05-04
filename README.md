@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-http://95.214.9.220:9002/life-game
+http://45.89.67.247:9002/life-game
 
 ### Build
 
